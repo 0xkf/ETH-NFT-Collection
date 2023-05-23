@@ -127,6 +127,7 @@ const App = () => {
         console.log(nftTxn);
         console.log(
           `Mined, see transaction: https://sepolia.etherscan.io/tx/${nftTxn.hash}`,
+          // polygonに変更予定
         );
       } else {
         console.log("Ethereum object doesn't exist!");
@@ -159,6 +160,7 @@ const App = () => {
     >
       Mint NFT
     </button>
+    // ボタン追加予定
   );
 
   return (
